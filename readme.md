@@ -16,6 +16,10 @@
    - use the uniform variable in vertex shader
    - update the uniform value in request animation frame
 
+## Effects Implemented
+
+1. [Tao Tajima](http://taotajima.jp/works/)
+
 ## Features to implement
 
 1. Smooth Scrolling
