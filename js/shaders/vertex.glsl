@@ -87,13 +87,13 @@ void main() {
   // newPosition.z += 0.1*sin((newPosition.x + 0.25 + time/10.)*2.* PI);
 
   // float noise = cnoise(vec3(position.x*4., position.y*4. + time/5., 0.));
-  float noise = cnoise(3.*vec3(position.x, position.y, position.z + time/30.));
+  float noise = cnoise(3.*vec3(position.x, position.y, position.z + time/10.));
 
 
   float dist = 0.0;
   dist = distance(uv, hover);
 
-  newPosition.z += hoverState*20.*sin(dist*10. + time/20.);
+  newPosition.z += hoverState*10.*sin(dist*10. + time/10.);
 
   // newPosition.z += 0.05*sin(dist * 40. - time);
 

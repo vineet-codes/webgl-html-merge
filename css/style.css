@@ -28,13 +28,14 @@ h1 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  color: #047582;
+  color: #e3e3e3;
   mix-blend-mode: color-burn;
   font-size: 18vw;
 }
 header img {
   max-width: 100%;
   display: block;
+  opacity: 0;
 }
 h1,
 h2 {
